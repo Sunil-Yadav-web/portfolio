@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YadaXpro</title>
+    <link rel="stylesheet" href="fonts/faregular400.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/card3d.js" defer></script>
+    <script src="js/bubble.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/overlay.js" defer></script>
+    <script
+      src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+      defer
+    ></script>
+    <script src="js/3deffect.js" defer></script>
+    <script src="js/tab.js" defer></script>
+  </head>
+  <body class="bg-dark">
+    <!-- Hero -->
+    <section>
+      <div class="bubbles">
+        <header class="header container">
+          <h1>YadaXpro</h1>
+          <ul class="nav-bar">
+            <li><a class="btn-hire">Hire me!</a></li>
+          </ul>
+        </header>
+        <div class="container hero">
+          <div class="h-left">
+            <span class="intro">I am Sunil Yadav</span>
+            <h1 class="intro-title">
+              Front-end Developer +<br class="brhidd" />
+              Graphic Designer
+            </h1>
+            <div class="hero-image1">
+              <img src="image/suil1.png" alt="Suil1" />
+            </div>
+            <p class="hero-pra">
+              I specialize in creating dynamic and responsive web designs. My
+              goal is to create seamless interfaces that not only meet client
+              needs but also delight users.
+            </p>
+            <div class="hero-btn">
+              <a href="#" class="btn-hero">About Me</a>
+              <ul class="icon">
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/sunil-yadav-2324a625a/?trk=public-profile-join-page"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://github.com/Sunil-Yadav-web"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" href=" https://wa.me/919559266001"><i class="fa-brands fa-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!--about popup-->
+            <div class="posi-fix show-about-popup">
+              <p class="close-paragraph">
+                <span class="close-icon">&times;</span>
+              </p>
+              <div class="about-back">
+                <div class="left-width">
+                  <h2 class="intro-title">ABOUT ME</h2>
+                  <p class="hero-pra">
+                    I help business owners and busy web developers to design &
+                    develop creative websites that fits their vision and
+                    attracts the visitors to stay for ever. Technologies and
+                    tools that I use to create such awesome websites.
+                  </p>
+                  <div class="language">
+                    <span>#javascript</span>
+                    <span>#react.js</span>
+                    <span>#mongoDB</span>
+                    <span>#html</span>
+                    <span>#css</span>
+                    <span>#bootstrap</span>
+                    <span>#tailwind</span>
+                    <span>#github</span>
+                    <span>#adobeXD</span>
+                    <span>#figma</span>
+                  </div>
+                </div>
+
+                <div class="right-width">
+                  <img
+                    class="img-w"
+                    src="image/programmer-1.svg"
+                    alt="programmer-1"
+                  />
+                </div>
+              </div>
+            </div>
+            <!--about popup-->
+          </div>
+          <div class="h-right">
+            <div class="hero-image2">
+              <img src="image/suil1.png" alt="suil1" />
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="my-service">
+            <h2 class="services">My Quality Services</h2>
+            <p>
+              We put your ideas and thus your wishes in the form of a unique web
+              project that inspires you and you customers.
+            </p>
+          </div>
+        </div>
+        <canvas id="canvas" style="height: 100%"> </canvas>
+      </div>
+    </section>
+    <!-- /Hero -->
+
+    <!-- Projects -->
+    <section>
+      <div class="container">
+        <div class="project-1">
+          <div class="overlays"></div>
+          <ul>
+            <li>
+              <div class="left-box">
+                <span>01</span>
+                <h3>Responsive Design</h3>
+              </div>
+              <div class="right-box">
+                <p>
+                  Ensure your website looks great on any device, with layouts
+                  that adapt to different screen sizes seamlessly.
+                </p>
+                <i class="fa fa-arrow-up-long"></i>
+              </div>
+            </li>
+            <li>
+              <div class="left-box">
+                <span>02</span>
+                <h3>Figma Design</h3>
+              </div>
+              <div class="right-box">
+                <p>
+                  Visually appealing, intuitive Figma design,focusing on smooth user interaction, sleek aesthetics, and optimized functionality.
+                </p>
+                <i class="fa fa-arrow-up-long"></i>
+              </div>
+            </li>
+            <li>
+              <div class="left-box">
+                <span>03</span>
+                <h3>CMS Development</h3>
+              </div>
+              <div class="right-box">
+                <p>
+                  Set up user-friendly CMS solutions like WordPress or
+                  custom-built options so clients can manage content easily.
+                </p>
+                <i class="fa fa-arrow-up-long"></i>
+              </div>
+            </li>
+            <li>
+              <div class="left-box">
+                <span>04</span>
+                <h3>Website Redesign</h3>
+              </div>
+              <div class="right-box">
+                <p>
+                  Refresh outdated websites with modern, appealing designs that
+                  align with current brand goals and user expectations.
+                </p>
+                <i class="fa fa-arrow-up-long"></i>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- /Projects -->
+
+    <!--Recent Work-->
+    <section>
+      <div class="container">
+        <div class="my-service">
+          <h2 class="services">My Recent Works</h2>
+          <p>
+            We put your ideas and thus your wishes in the form of a unique web
+            project that inspires you and you customers.
+          </p>
+        </div>
+        <!-- Tab links -->
+        <div class="tabs">
+          <button class="tablinks active" data-country="All">
+            <p data-title="All">All</p>
+          </button>
+          <button class="tablinks" data-country="UX-UI">
+            <p data-title="UX-UI">UX/UI</p>
+          </button>
+          <button class="tablinks" data-country="React">
+            <p data-title="React">React</p>
+          </button>
+          <button class="tablinks" data-country="Apps">
+            <p data-title="Apps">Apps</p>
+          </button>
+        </div>
+
+        <!-- Tab content -->
+        <div class="work">
+          <div class="content">
+            <div class="wrapper_tabcontent">
+              <div id="All" class="tabcontent active">
+                <div class="tab-grid">
+                  <div class="tilt">
+                    <div class="tilt-sub-container">
+                      <a target="_blank" href="https://country-api-y.netlify.app/">
+                        <img src="image/country API.png" alt="country">
+                      </a>
+                    </div>
+                    <div class="work-text">
+                      <span>Product Design</span>
+                      <h4>Country API</h4>
+                    </div>
+                  </div>
+                  <div class="tilt">
+                    <div class="tilt-sub-container">
+                      <a target="_blank" href="https://set-today-gaols.netlify.app/">
+                        <img src="image/focus app.png" alt="focus">
+                      </a>
+                    </div>
+                    <div class="work-text">
+                      <span>Product Design</span>
+                      <h4>Focus on Today</h4>
+                    </div>
+                  </div>
+                  <div class="tilt">
+                    <div class="tilt-sub-container">
+                      <a target="_blank" href="https://tailwind-hoobank.netlify.app/">
+                        <img src="image/Tailwind css.png" alt="Tailwind">
+                      </a>
+                    </div>
+                    <div class="work-text">
+                      <span>Product Design</span>
+                      <h4>Hoobank</h4>
+                    </div>
+                  </div>
+                  <div class="tilt">
+                    <div class="tilt-sub-container">
+                      <a target="_blank" href="https://navratri-puja-2024.netlify.app/">
+                        <img src="image/durga-pooja.png" alt="durga-pooja">
+                      </a>
+                    </div>
+                    <div class="work-text">
+                      <span>Product Design</span>
+                      <h4>Durga Pooja</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="UX-UI" class="tabcontent">
+                <div class="tab-grid">
+                  <div class="tilt">
+                    <div class="tilt-sub-container">
+                      <a  href="/">
+                        <img src="image/figma crop.jpg" alt="crop">
+                      </a>
+                    </div>
+                    <div class="work-text">
+                      <span>Product Design</span>
+                      <h4>Bio crop</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="React" class="tabcontent">
+                <div class="tab-grid">
+                  <div class="tilt">
+                    <div class="tilt-sub-container">
+                      <a target="_blank" href="https://country-api-y.netlify.app/">
+                        <img src="image/country API.png" alt="country">
+                      </a>
+                    </div>
+                    <div class="work-text">
+                      <span>Product Design</span>
+                      <h4>Country API</h4>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div id="Apps" class="tabcontent">
+                <div class="tab-grid">
+                  <div class="tilt">
+                    <div class="tilt-sub-container">
+                      <a target="_blank" href="https://quizyadav.netlify.app/">
+                        <img src="image/Quiz app.png" alt="quiz">
+                      </a>
+                    </div>
+                    <div class="work-text">
+                      <span>App Design</span>
+                      <h4>Quiz App</h4>
+                    </div>
+                  </div>
+                  <div class="tilt">
+                    <div class="tilt-sub-container">
+                      <a target="_blank" href="https://set-today-gaols.netlify.app/">
+                        <img src="image/focus app.png" alt="focus">
+                      </a>
+                    </div>
+                    <div class="work-text">
+                      <span>Product Design</span>
+                      <h4>Focus on Today</h4>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/Recent Work-->
+
+    <!--My Skill-->
+    <section>
+      <div class="container">
+        <div class="my-service">
+          <h2 class="services">My Skill</h2>
+          <p>
+            We put your ideas and thus your wishes in the form of a unique web
+            project that inspires you and you customers.
+          </p>
+        </div>
+        <div class="my-skill">
+          <figure>
+            <img src="/image/html-5.svg" alt="html-5" />
+            <figcaption>HTML 5</figcaption>
+          </figure>
+          <figure>
+            <img src="/image/css3.svg" alt="css3" />
+            <figcaption>CSS 3</figcaption>
+          </figure>
+            <figure>
+              <img src="/image/js1.svg" alt="js" /> 
+              <figcaption>Js</figcaption>
+            </figure>
+          <figure>
+            <img src="/image/react.svg" alt="react" />
+            <figcaption>React</figcaption>
+          </figure>
+          <figure>
+            <img src="/image/figma.svg" alt="figma" />
+            <figcaption>Figma</figcaption>
+          </figure>
+          <figure>
+            <img src="/image/wp.svg" alt="wp" />
+            <figcaption>Wp</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!--/My Skill-->
+
+    <!--Let's chat-->
+    <section>
+      <div class="container">
+        <div class="chat">
+         <div class="anim-center">
+          <h2 id="anim">
+            <span>L</span>
+            <span>e</span>
+            <span>t</span>
+            <span>'</span>
+            <span>s</span>
+            <span>&nbsp;</span>
+            <span>h</span>
+            <span>a</span>
+            <span>v</span>
+            <span>e</span>
+            <span>&nbsp;</span>
+            <span>a</span>
+            <span>&nbsp;</span>
+            <span>c</span>
+            <span>h</span>
+            <span>a</span>
+            <span>t</span>
+            <p class="para-email">
+              <a class="link-email" href="mailto:sunilyadav1998jan@gmail.com">sunilyadav1998jan@gmail.com</a>
+              <i class="fa fa-arrow-right"></i>
+            </p>
+            <p class="start-project">Want to start a project?</p>
+        </h2>
+       
+         </div>
+        </div>
+      </div>
+    </section>
+    <!--/Let's chat-->
+
+    <!--footer-->
+    <section>
+      <div class="container">
+        <div class="footer hero-btn">
+          <ul class="icon">
+            <li>
+              <a  target="_blank" href="https://www.linkedin.com/in/sunil-yadav-2324a625a/?trk=public-profile-join-page"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a  target="_blank" href="https://github.com/Sunil-Yadav-web"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href=" https://wa.me/919559266001"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+          <h2>YadaXpro</h2>
+          <p>© 2025 All rights reserved by <span>Sunil Yadav</span></p>
+        </div>
+      </div>
+    </section>
+    <!--/footer-->
+
+
+  </body>
+</html>
