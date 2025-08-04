@@ -1,7 +1,6 @@
 const overlays = document.querySelector('.overlays');
 const nav_list = document.querySelectorAll('.project-1 ul li');
 
-console.log(nav_list);
 
 // Function to activate the overlay
 const activateOverlay = (list) => {
